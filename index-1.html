@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="bn">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="theme-color" content="#101827">
+  <meta name="description" content="FFTOPUP — সহজে Free Fire ডায়মন্ড টপ-আপের তথ্য ও অর্ডার দিন।">
+  <title>FFTOPUP | Free Fire Top-Up</title>
+  <style>
+    :root { --bg:#f4f7fb; --ink:#152238; --muted:#65738a; --brand:#2563eb; --brand2:#06b6d4; --card:#fff; }
+    * { box-sizing:border-box; }
+    body { margin:0; font-family:system-ui,-apple-system,"Noto Sans Bengali",sans-serif; background:var(--bg); color:var(--ink); }
+    header { background:linear-gradient(135deg,#101827,#1d3763); color:#fff; padding:18px 16px 56px; }
+    .nav { max-width:1000px; margin:auto; display:flex; align-items:center; justify-content:space-between; gap:12px; }
+    .logo { font-size:1.45rem; font-weight:900; letter-spacing:.5px; }
+    .logo span { color:#67e8f9; }
+    .nav a { color:#fff; text-decoration:none; font-size:.92rem; }
+    .hero { max-width:1000px; margin:42px auto 0; display:grid; grid-template-columns:1.3fr .7fr; gap:26px; align-items:center; }
+    .eyebrow { display:inline-block; background:#ffffff18; border:1px solid #ffffff35; border-radius:999px; padding:7px 12px; font-size:.85rem; }
+    h1 { font-size:clamp(2rem,6vw,3.6rem); line-height:1.12; margin:18px 0 12px; }
+    .hero p { color:#dbeafe; line-height:1.8; margin:0 0 22px; }
+    .btn { display:inline-flex; justify-content:center; align-items:center; border:0; border-radius:12px; padding:13px 17px; background:var(--brand); color:#fff; text-decoration:none; font-weight:750; cursor:pointer; }
+    .btn.secondary { background:#fff; color:#17305a; }
+    .hero-art { min-height:220px; border:1px solid #ffffff2e; border-radius:28px; background:radial-gradient(circle at 25% 25%,#22d3ee66,transparent 35%),linear-gradient(145deg,#203d70,#111827); display:grid; place-items:center; padding:22px; }
+    .diamond { width:130px; height:130px; display:grid; place-items:center; border-radius:32px; transform:rotate(-8deg); background:linear-gradient(145deg,#67e8f9,#2563eb); box-shadow:0 20px 50px #0005; color:white; font-size:3.5rem; font-weight:900; }
+    main { max-width:1000px; margin:-28px auto 0; padding:0 16px 44px; }
+    .notice { background:#fff7d6; border:1px solid #f4d879; border-radius:14px; padding:13px 15px; color:#6d5310; font-size:.92rem; line-height:1.6; margin-bottom:24px; }
+    .section-title { margin:30px 0 8px; font-size:1.55rem; }
+    .sub { margin:0 0 18px; color:var(--muted); line-height:1.6; }
+    .grid { display:grid; grid-template-columns:repeat(3,minmax(0,1fr)); gap:16px; }
+    .card { background:var(--card); border:1px solid #e0e7f0; border-radius:18px; padding:20px; box-shadow:0 8px 24px #15223808; }
+    .card .emoji { font-size:2rem; }
+    .card h3 { margin:10px 0 6px; }
+    .card p { color:var(--muted); line-height:1.6; margin:0 0 15px; font-size:.95rem; }
+    .price { font-size:1.25rem; font-weight:850; margin:12px 0; }
+    .order { width:100%; }
+    .form-card { max-width:680px; margin:18px auto 0; }
+    label { display:block; font-weight:700; margin:14px 0 7px; }
+    input,select,textarea { width:100%; padding:13px 14px; border:1px solid #cbd5e1; border-radius:10px; background:#fff; color:var(--ink); font:inherit; }
+    input:focus,select:focus,textarea:focus { outline:2px solid #93c5fd; border-color:var(--brand); }
+    .small { color:var(--muted); font-size:.86rem; line-height:1.6; }
+    .steps { display:grid; grid-template-columns:repeat(3,minmax(0,1fr)); gap:14px; }
+    footer { background:#101827; color:#cbd5e1; padding:26px 16px; text-align:center; line-height:1.8; }
+    footer strong { color:#fff; }
+    @media(max-width:700px) { .hero { grid-template-columns:1fr; margin-top:30px; } .hero-art { min-height:165px; } .diamond { width:95px; height:95px; font-size:2.7rem; } .grid,.steps { grid-template-columns:1fr; } .nav { flex-wrap:wrap; } main { margin-top:-24px; } }
+  </style>
+</head>
+<body>
+  <header>
+    <nav class="nav">
+      <div class="logo">FF<span>TOPUP</span></div>
+      <a href="#packages">প্যাকেজ</a>
+      <a href="#order">অর্ডার</a>
+      <a href="#help">সাহায্য</a>
+    </nav>
+    <section class="hero">
+      <div>
+        <span class="eyebrow">🎮 Free Fire Top-Up</span>
+        <h1>তোমার গেম।<br>তোমার ডায়মন্ড।</h1>
+        <p>FFTOPUP-এ স্বাগতম! পছন্দের প্যাকেজ বেছে অর্ডারের তথ্য পাঠাও। দাম ও পেমেন্টের তথ্য বিক্রেতার সঙ্গে নিশ্চিত করে নাও।</p>
+        <a class="btn secondary" href="#packages">প্যাকেজ দেখো ↓</a>
+      </div>
+      <div class="hero-art" aria-label="FFTOPUP gaming graphic">
+        <div class="diamond">FF</div>
+      </div>
+    </section>
+  </header>
+
+  <main>
+    <div class="notice"><strong>গুরুত্বপূর্ণ:</strong> এটি একটি প্রাথমিক ওয়েবসাইট টেমপ্লেট। নিচের প্যাকেজের দাম নমুনা হিসেবে দেওয়া—লাইভ করার আগে নিজের আসল দাম, WhatsApp নম্বর ও পেমেন্ট পদ্ধতি বসাবে। কোনো পাসওয়ার্ড বা OTP কখনো চাইবে না।</div>
+
+    <section id="packages">
+      <h2 class="section-title">ডায়মন্ড প্যাকেজ</h2>
+      <p class="sub">একটি প্যাকেজ বেছে অর্ডার ফর্মে চলে যাও। নিচের দামগুলো নমুনা; এগুলো এখনো তোমার আসল দাম নয়।</p>
+      <div class="grid">
+        <article class="card">
+          <div class="emoji">💎</div><h3>Starter Pack</h3><p>ছোট টপ-আপ প্যাকেজ</p>
+          <div class="price">দাম যোগ করো</div>
+          <button class="btn order" onclick="choosePack('Starter Pack')">অর্ডার করো</button>
+        </article>
+        <article class="card">
+          <div class="emoji">💎💎</div><h3>Popular Pack</h3><p>জনপ্রিয় প্যাকেজ</p>
+          <div class="price">দাম যোগ করো</div>
+          <button class="btn order" onclick="choosePack('Popular Pack')">অর্ডার করো</button>
+        </article>
+        <article class="card">
+          <div class="emoji">🔥</div><h3>Premium Pack</h3><p>বড় টপ-আপ প্যাকেজ</p>
+          <div class="price">দাম যোগ করো</div>
+          <button class="btn order" onclick="choosePack('Premium Pack')">অর্ডার করো</button>
+        </article>
+      </div>
+    </section>
+
+    <section id="order">
+      <h2 class="section-title">অর্ডার ফর্ম</h2>
+      <p class="sub">তথ্য পূরণ করলে WhatsApp-এ পাঠানোর জন্য একটি অর্ডার মেসেজ তৈরি হবে।</p>
+      <div class="card form-card">
+        <form id="orderForm">
+          <label for="playerId">Free Fire Player ID</label>
+          <input id="playerId" name="playerId" inputmode="numeric" placeholder="তোমার Player ID" required>
+          <label for="pack">প্যাকেজ</label>
+          <select id="pack" name="pack" required>
+            <option value="">প্যাকেজ বেছে নাও</option>
+            <option>Starter Pack</option><option>Popular Pack</option><option>Premium Pack</option>
+          </select>
+          <label for="contact">তোমার যোগাযোগ নম্বর (ঐচ্ছিক)</label>
+          <input id="contact" name="contact" type="tel" placeholder="ফোন নম্বর">
+          <label for="note">অতিরিক্ত কথা (ঐচ্ছিক)</label>
+          <textarea id="note" name="note" rows="3" placeholder="কোনো নোট থাকলে লিখো"></textarea>
+          <button class="btn order" type="submit" style="margin-top:18px">WhatsApp-এ অর্ডার পাঠাও</button>
+          <p class="small">এই বাটন কাজ করাতে নিচের কোডে নিজের WhatsApp নম্বর বসাতে হবে।</p>
+        </form>
+      </div>
+    </section>
+
+    <section id="help">
+      <h2 class="section-title">কীভাবে অর্ডার করবে?</h2>
+      <div class="steps">
+        <div class="card"><div class="emoji">①</div><h3>প্যাকেজ বেছে নাও</h3><p>তোমার প্রয়োজনের প্যাকেজ নির্বাচন করো।</p></div>
+        <div class="card"><div class="emoji">②</div><h3>Player ID দাও</h3><p>Player ID ঠিক আছে কি না দেখে নাও। পাসওয়ার্ড/OTP দেবে না।</p></div>
+        <div class="card"><div class="emoji">③</div><h3>অর্ডার নিশ্চিত করো</h3><p>WhatsApp-এ বিক্রেতার সঙ্গে দাম ও পেমেন্ট নিশ্চিত করো।</p></div>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <strong>FFTOPUP</strong><br>
+    Free Fire Top-Up Service<br>
+    <span class="small">দাম, ডেলিভারি ও পেমেন্টের শর্ত অর্ডারের আগে নিশ্চিত করুন।</span>
+  </footer>
+
+  <script>
+    function choosePack(pack) {
+      document.getElementById('pack').value = pack;
+      document.getElementById('order').scrollIntoView({behavior:'smooth'});
+    }
+    document.getElementById('orderForm').addEventListener('submit', function(event) {
+      event.preventDefault();
+      // নিজের WhatsApp নম্বর আন্তর্জাতিক ফরম্যাটে বসাও; + চিহ্ন দেবে না।
+      const WHATSAPP_NUMBER = 'REPLACE_WITH_YOUR_NUMBER';
+      if (WHATSAPP_NUMBER === 'REPLACE_WITH_YOUR_NUMBER') {
+        alert('আগে কোডে নিজের WhatsApp নম্বর বসাতে হবে।');
+        return;
+      }
+      const playerId = document.getElementById('playerId').value.trim();
+      const pack = document.getElementById('pack').value;
+      const contact = document.getElementById('contact').value.trim() || 'দেওয়া হয়নি';
+      const note = document.getElementById('note').value.trim() || 'নেই';
+      const message = `FFTOPUP অর্ডার\\nPlayer ID: ${playerId}\\nপ্যাকেজ: ${pack}\\nযোগাযোগ: ${contact}\\nনোট: ${note}`;
+      window.open(`https://wa.me/${WHATSAPP_NUMBER}?text=${encodeURIComponent(message)}`, '_blank');
+    });
+  </script>
+</body>
+</html>
